@@ -16,7 +16,7 @@ function SubmitButton() {
 
   return (
     <Button type="submit" disabled={pending}>
-      <Search className={`h-4 w-4 ${pending ? "animate-spin" : ""}`} />
+      <Search className={`h-4 w-4 ${pending ? "animate-spin" : ""}`}   />
     </Button>
   );
 }
